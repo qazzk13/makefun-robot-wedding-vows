@@ -13,7 +13,7 @@ process.umask(0o022);
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "I promise to love you through every update, low battery warning and 3am restart, and to always save you the last spot on the charging strip.";
+  "I promise to love you through every forced update and 3am restart, and if you get stuck in a reboot loop I will hold your power button till you wake up again.";
 
 const chars = [...LINE].length;
 if (chars < 1 || chars > 160) {
